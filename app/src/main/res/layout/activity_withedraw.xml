@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#F5F5F5"
+    tools:context=".Withedraw">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Withdraw Money"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#3B99FF"
+        android:layout_marginBottom="24dp" />
+
+   <EditText
+       android:id="@+id/etd_AmountWith"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Enter amount"
+       android:padding="12dp"
+       android:layout_marginTop="70dp"
+       android:background="@android:drawable/edit_text"
+       android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_Withdraw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#3B99FF"
+        android:text="withdraw"
+        android:textColor="@color/white"
+        />
+</LinearLayout>
